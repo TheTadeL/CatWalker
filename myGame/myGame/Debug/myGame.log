@@ -1,0 +1,11 @@
+﻿  classes.cpp
+d:\projekte\sdl\mygame\mygame\classes.cpp(296): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+d:\projekte\sdl\mygame\mygame\classes.cpp(469): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+d:\projekte\sdl\mygame\mygame\classes.cpp(470): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+d:\projekte\sdl\mygame\mygame\classes.cpp(569): warning C4838: Konvertierung von "float" zu "int" erfordert eine einschränkende Konvertierung
+d:\projekte\sdl\mygame\mygame\classes.cpp(569): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+  Code wird generiert...
+  Überspringen... (keine relevanten Änderungen gefunden)
+  main.cpp
+  myGame.vcxproj -> D:\Projekte\SDL\myGame\Debug\myGame.exe
+  myGame.vcxproj -> D:\Projekte\SDL\myGame\Debug\myGame.pdb (Partial PDB)
