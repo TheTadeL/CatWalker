@@ -1,7 +1,7 @@
 #pragma once
 
-#include <SDL.h>
-#include <SDL_image.h>
+#include "../../SDL2-2.0.5/include/SDL.h"
+#include "../../SDL2_image-2.0.1/include/SDL_image.h"
 #include <vector>
 
 extern const int SCREEN_WIDTH;
