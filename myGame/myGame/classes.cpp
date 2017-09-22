@@ -1,9 +1,9 @@
 #include "main.h"
 #include "classes.h"
-//temporär !AM SCHLUSS ENTFERNEN!
+//temporÃ¤r !AM SCHLUSS ENTFERNEN!
 #include <iostream>
-#include <SDL.h>
-#include <SDL_image.h>
+#include "../../SDL2-2.0.5/include/SDL.h"
+#include "../../SDL2_image.2.0.1/include/SDL_image.h"
 #include <string>
 //
 
@@ -153,13 +153,13 @@ void Player::render(int x, int y, int w, int h, SDL_Rect * clip, SDL_RendererFli
 	//Renderposition und -dimension 
 	SDL_Rect renderQuad = { x, y, width, height };	//Der Quad der gerendert wird (wenn w&h leer bleiben, wird die width&height von der Klasse benutzt)
 
-	//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen übernehmen
+	//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen Ã¼bernehmen
 	if (clip != NULL) {
 		renderQuad.w = clip->w;
 		renderQuad.h = clip->h;
 	}
 
-	//Wenn w&h angegeben werden, deren Dimensionen übernehmen
+	//Wenn w&h angegeben werden, deren Dimensionen Ã¼bernehmen
 	if (w != NULL && h != NULL) {
 		renderQuad.w = w;
 		renderQuad.h = h;
@@ -327,13 +327,13 @@ void Enemies::render(int x, int y, int w, int h, SDL_Rect * clip, SDL_RendererFl
 	//Renderposition und -dimension 
 	SDL_Rect renderQuad = { x, y, width, height };	//Der Quad der gerendert wird (wenn w&h leer bleiben, wird die width&height von der Klasse benutzt)
 
-													//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen übernehmen
+													//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen Ã¼bernehmen
 	if (clip != NULL) {
 		renderQuad.w = clip->w;
 		renderQuad.h = clip->h;
 	}
 
-	//Wenn w&h angegeben werden, deren Dimensionen übernehmen
+	//Wenn w&h angegeben werden, deren Dimensionen Ã¼bernehmen
 	if (w != NULL && h != NULL) {
 		renderQuad.w = w;
 		renderQuad.h = h;
@@ -549,13 +549,13 @@ void Environment::render(int x, int y, int w, int h, SDL_Rect * clip, SDL_Render
 	//Renderposition und -dimension 
 	SDL_Rect renderQuad = { x, y, width, height };	//Der Quad der gerendert wird (wenn w&h leer bleiben, wird die width&height von der Klasse benutzt)
 
-													//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen übernehmen
+													//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen Ã¼bernehmen
 	if (clip != NULL) {
 		renderQuad.w = clip->w;
 		renderQuad.h = clip->h;
 	}
 
-	//Wenn w&h angegeben werden, deren Dimensionen übernehmen
+	//Wenn w&h angegeben werden, deren Dimensionen Ã¼bernehmen
 	if (w != NULL && h != NULL) {
 		renderQuad.w = w;
 		renderQuad.h = h;
@@ -568,13 +568,13 @@ void Environment::render(float x, float y, int w, int h, SDL_Rect * clip, SDL_Re
 	//Renderposition und -dimension 
 	SDL_Rect renderQuad = { x, y, width, height };	//Der Quad der gerendert wird (wenn w&h leer bleiben, wird die width&height von der Klasse benutzt)
 
-													//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen übernehmen
+													//Wenn ein SDL_Rect clip angegeben wird, deren Dimensionen Ã¼bernehmen
 	if (clip != NULL) {
 		renderQuad.w = clip->w;
 		renderQuad.h = clip->h;
 	}
 
-	//Wenn w&h angegeben werden, deren Dimensionen übernehmen
+	//Wenn w&h angegeben werden, deren Dimensionen Ã¼bernehmen
 	if (w != NULL && h != NULL) {
 		renderQuad.w = w;
 		renderQuad.h = h;
